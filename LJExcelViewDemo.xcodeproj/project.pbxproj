@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD09FD2C1FAC56FF00CD9232 /* LJExcelConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09FD2B1FAC56FF00CD9232 /* LJExcelConfigure.m */; };
 		FD2DFA641FA9AEC900EB7B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA631FA9AEC900EB7B7F /* main.m */; };
 		FD2DFA671FA9AEC900EB7B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA661FA9AEC900EB7B7F /* AppDelegate.m */; };
 		FD2DFA6A1FA9AEC900EB7B7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA691FA9AEC900EB7B7F /* ViewController.m */; };
 		FD2DFA6D1FA9AEC900EB7B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2DFA6B1FA9AEC900EB7B7F /* Main.storyboard */; };
 		FD2DFA6F1FA9AEC900EB7B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2DFA6E1FA9AEC900EB7B7F /* Assets.xcassets */; };
 		FD2DFA721FA9AEC900EB7B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2DFA701FA9AEC900EB7B7F /* LaunchScreen.storyboard */; };
+		FD2DFA801FA9AF3400EB7B7F /* LJExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA7F1FA9AF3400EB7B7F /* LJExcelView.m */; };
+		FD2DFA831FA9C0B400EB7B7F /* LJTopCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA821FA9C0B400EB7B7F /* LJTopCollectionView.m */; };
+		FD2DFA861FA9C11300EB7B7F /* LJTopCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA851FA9C11300EB7B7F /* LJTopCollectionCell.m */; };
+		FD2DFA891FA9C22000EB7B7F /* LJContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA881FA9C22000EB7B7F /* LJContentTableView.m */; };
+		FD2DFA8C1FA9C22C00EB7B7F /* LJContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA8B1FA9C22C00EB7B7F /* LJContentTableViewCell.m */; };
+		FD2DFA921FA9C29300EB7B7F /* LJContentRightCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DFA911FA9C29300EB7B7F /* LJContentRightCollectionCell.m */; };
+		FDBAC5461FAAF0D100D5F10A /* mock.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBAC5451FAAF0D100D5F10A /* mock.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD09FD2A1FAC56FF00CD9232 /* LJExcelConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJExcelConfigure.h; sourceTree = "<group>"; };
+		FD09FD2B1FAC56FF00CD9232 /* LJExcelConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJExcelConfigure.m; sourceTree = "<group>"; };
 		FD2DFA5F1FA9AEC900EB7B7F /* LJExcelViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJExcelViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2DFA631FA9AEC900EB7B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD2DFA651FA9AEC900EB7B7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,19 @@
 		FD2DFA6E1FA9AEC900EB7B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2DFA711FA9AEC900EB7B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD2DFA731FA9AEC900EB7B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2DFA7E1FA9AF3400EB7B7F /* LJExcelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJExcelView.h; sourceTree = "<group>"; };
+		FD2DFA7F1FA9AF3400EB7B7F /* LJExcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJExcelView.m; sourceTree = "<group>"; };
+		FD2DFA811FA9C0B400EB7B7F /* LJTopCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTopCollectionView.h; sourceTree = "<group>"; };
+		FD2DFA821FA9C0B400EB7B7F /* LJTopCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTopCollectionView.m; sourceTree = "<group>"; };
+		FD2DFA841FA9C11300EB7B7F /* LJTopCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTopCollectionCell.h; sourceTree = "<group>"; };
+		FD2DFA851FA9C11300EB7B7F /* LJTopCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTopCollectionCell.m; sourceTree = "<group>"; };
+		FD2DFA871FA9C22000EB7B7F /* LJContentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJContentTableView.h; sourceTree = "<group>"; };
+		FD2DFA881FA9C22000EB7B7F /* LJContentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJContentTableView.m; sourceTree = "<group>"; };
+		FD2DFA8A1FA9C22C00EB7B7F /* LJContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJContentTableViewCell.h; sourceTree = "<group>"; };
+		FD2DFA8B1FA9C22C00EB7B7F /* LJContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJContentTableViewCell.m; sourceTree = "<group>"; };
+		FD2DFA901FA9C29300EB7B7F /* LJContentRightCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJContentRightCollectionCell.h; sourceTree = "<group>"; };
+		FD2DFA911FA9C29300EB7B7F /* LJContentRightCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJContentRightCollectionCell.m; sourceTree = "<group>"; };
+		FDBAC5451FAAF0D100D5F10A /* mock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = mock.plist; path = ../mock.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +81,12 @@
 		FD2DFA611FA9AEC900EB7B7F /* LJExcelViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FD2DFA791FA9AEF400EB7B7F /* LJExcelView */,
 				FD2DFA651FA9AEC900EB7B7F /* AppDelegate.h */,
 				FD2DFA661FA9AEC900EB7B7F /* AppDelegate.m */,
 				FD2DFA681FA9AEC900EB7B7F /* ViewController.h */,
 				FD2DFA691FA9AEC900EB7B7F /* ViewController.m */,
+				FDBAC5451FAAF0D100D5F10A /* mock.plist */,
 				FD2DFA6B1FA9AEC900EB7B7F /* Main.storyboard */,
 				FD2DFA6E1FA9AEC900EB7B7F /* Assets.xcassets */,
 				FD2DFA701FA9AEC900EB7B7F /* LaunchScreen.storyboard */,
@@ -77,6 +102,27 @@
 				FD2DFA631FA9AEC900EB7B7F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD2DFA791FA9AEF400EB7B7F /* LJExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				FD09FD2A1FAC56FF00CD9232 /* LJExcelConfigure.h */,
+				FD09FD2B1FAC56FF00CD9232 /* LJExcelConfigure.m */,
+				FD2DFA7E1FA9AF3400EB7B7F /* LJExcelView.h */,
+				FD2DFA7F1FA9AF3400EB7B7F /* LJExcelView.m */,
+				FD2DFA811FA9C0B400EB7B7F /* LJTopCollectionView.h */,
+				FD2DFA821FA9C0B400EB7B7F /* LJTopCollectionView.m */,
+				FD2DFA841FA9C11300EB7B7F /* LJTopCollectionCell.h */,
+				FD2DFA851FA9C11300EB7B7F /* LJTopCollectionCell.m */,
+				FD2DFA871FA9C22000EB7B7F /* LJContentTableView.h */,
+				FD2DFA881FA9C22000EB7B7F /* LJContentTableView.m */,
+				FD2DFA8A1FA9C22C00EB7B7F /* LJContentTableViewCell.h */,
+				FD2DFA8B1FA9C22C00EB7B7F /* LJContentTableViewCell.m */,
+				FD2DFA901FA9C29300EB7B7F /* LJContentRightCollectionCell.h */,
+				FD2DFA911FA9C29300EB7B7F /* LJContentRightCollectionCell.m */,
+			);
+			path = LJExcelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +151,7 @@
 		FD2DFA571FA9AEC900EB7B7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = long;
 				TargetAttributes = {
 					FD2DFA5E1FA9AEC900EB7B7F = {
@@ -139,6 +185,7 @@
 			files = (
 				FD2DFA721FA9AEC900EB7B7F /* LaunchScreen.storyboard in Resources */,
 				FD2DFA6F1FA9AEC900EB7B7F /* Assets.xcassets in Resources */,
+				FDBAC5461FAAF0D100D5F10A /* mock.plist in Resources */,
 				FD2DFA6D1FA9AEC900EB7B7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +199,14 @@
 			files = (
 				FD2DFA6A1FA9AEC900EB7B7F /* ViewController.m in Sources */,
 				FD2DFA671FA9AEC900EB7B7F /* AppDelegate.m in Sources */,
+				FD09FD2C1FAC56FF00CD9232 /* LJExcelConfigure.m in Sources */,
+				FD2DFA921FA9C29300EB7B7F /* LJContentRightCollectionCell.m in Sources */,
+				FD2DFA861FA9C11300EB7B7F /* LJTopCollectionCell.m in Sources */,
+				FD2DFA891FA9C22000EB7B7F /* LJContentTableView.m in Sources */,
+				FD2DFA801FA9AF3400EB7B7F /* LJExcelView.m in Sources */,
 				FD2DFA641FA9AEC900EB7B7F /* main.m in Sources */,
+				FD2DFA831FA9C0B400EB7B7F /* LJTopCollectionView.m in Sources */,
+				FD2DFA8C1FA9C22C00EB7B7F /* LJContentTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +242,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -196,7 +252,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,7 +296,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -244,7 +306,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,6 +375,7 @@
 				FD2DFA781FA9AEC900EB7B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
